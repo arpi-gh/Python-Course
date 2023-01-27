@@ -52,6 +52,6 @@
 # width = int(input("Enter width:"))
 # border = '* ' * width
 # print(border)
-# for i in range(0, height + 1):
+# for i in range(0, height - 2):
 #     print('* ','  ' * (width-3), '* ')
 # print(border)
