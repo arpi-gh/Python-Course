@@ -38,7 +38,9 @@
 # # Write a program that asks the user to enter a number
 # # and prints the sum of its digits on the screen.
 #
-# num = int(input("Enter number: "))
+# num = int(input("Enter number: ")) 
+# if num < 0:
+#     num = -num
 # digit_sum = 0
 # digit = 0
 # while num != 0:
