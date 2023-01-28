@@ -38,17 +38,20 @@
 # # Write a program that asks the user to enter a number
 # # and prints the sum of its digits on the screen.
 #
-# num = int(input("Enter number: ")) 
+# num = int(input("Enter number: "))
+# digit_sum = 0
+# tmp = num
+# counter = 1
 # if num < 0:
 #     num = -num
-# digit_sum = 0
-# digit = 0
-# while num != 0:
+# while num > 10:
 #     digit = num % 10
 #     digit_sum += digit
 #     num //= 10
-# print(digit_sum)
-#
+#     counter *= 10
+# last_digit = int(tmp / counter)
+# print(digit_sum + last_digit)
+
 # # Write program that prints the following image on the screen. Use cycles.
 # height = int(input("Enter height:"))
 # width = int(input("Enter width:"))
